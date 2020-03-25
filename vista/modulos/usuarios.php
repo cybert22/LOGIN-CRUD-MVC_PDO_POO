@@ -1,6 +1,9 @@
 <?php
-
+ob_start();
 session_start();
+
+
+
 
 if(!$_SESSION["validar"]){
 
@@ -98,3 +101,6 @@ if(isset($_GET["action"])){
 
 
 </html>
+<?php
+ob_end_flush();
+?>
