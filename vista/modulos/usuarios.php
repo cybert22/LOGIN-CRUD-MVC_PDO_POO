@@ -50,7 +50,7 @@ if(!$_SESSION["validar"]){
   <h1 class="page-header">CRUD con el patrón MVC en PHP POO y PDO </h1>
 
 
-<a class="btn btn-primary pull-right" href="#">Agregar</a>
+<a class="btn btn-primary pull-right" href="index.php?action=salir">Cerrar Sesión</a>
 <br><br><br>
 
 <table class="table  table-striped  table-hover" id="tabla">
